@@ -1,0 +1,25 @@
+{
+  "title": "Quiz",
+  "questions": [
+    {
+      "q": "What is a Terendak?",
+      "options": [
+        "Melanau Traditional Boat",
+        "Burial Pole For Nobles",
+        "A Traditional Conical Hat",
+        "A Traditional Musical Instrument"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which ethic group in Sarawak is closely associated with the Terendak?",
+      "options": [
+        "Penan",
+        "Melanau",
+        "Iban",
+        "Bidayuh"
+      ],
+      "answer": 1
+    }
+  ]
+}
