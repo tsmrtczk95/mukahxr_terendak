@@ -16,7 +16,7 @@ document.querySelector('model-viewer').addEventListener('progress', onProgress);
 import { loadAudioList, loadVideoList, loadArticleText, loadPDF, loadExternalURL, loadQuiz, closePanelExternal } from './components/ui.js';
 
 // Example lists - update to match your assets
-const audioList = [{label:'Narration - English', src:'./assets/audio/audio1.mp3'}];
+const audioList = [{label:'What is a Terendak?', src:'./assets/audio/terendak_is.mp3'}];
 const videoList = [{label:'Demo Kursus Pembuatan Terendak', src:'./assets/video/buat_terendak.mp4'}];
 
 document.querySelectorAll('[data-open]').forEach(btn=>{
@@ -30,7 +30,7 @@ document.querySelectorAll('[data-open]').forEach(btn=>{
     }
     else if(type==='articles') {
       // toggle example: load text file; you can create a list UI instead
-      await loadArticleText('./assets/articles/article1.txt','Article: Intro');
+      await loadArticleText('./assets/articles/what_is.txt','What is a Terendak?');
     }
     else if(type==='quiz') {
       await loadQuiz('./assets/quiz/quiz1.json');
